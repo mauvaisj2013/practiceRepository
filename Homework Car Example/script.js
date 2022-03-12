@@ -50,7 +50,7 @@ const markup = (myCar) => {
         <li>Backseat passenger 2:${myCar.passengers.rearRight}</li>
         <li>Is the AC on or off?:${myCar.ACOn ? "On" : "Off"}</li>
         </ul>
-        <img src="C:\Users\Joseph Mauvais\Desktop\Work\IT\Class 8 Tony\Corolla Pic.jpg" />
+        <img src="Images/Corolla Pic.jpg" />
     <div>   `
 }
 
