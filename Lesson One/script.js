@@ -44,7 +44,7 @@ const markup = (travelBag) => {
         <ul>
         <li>Volume:${travelBag.volume}</li>
         <li>Color:${travelBag.color}</li>
-        <li>Length:${travelBag.dimensions.length}</li>
+        <li>Length:${travelBag.dimensions.length} inches</li>
         <li>Height:${travelBag.dimensions.height}</li>
         <li>Width:${travelBag.dimensions.width}</li>
         <li>Bag contents:${travelBag.box.name}</li>
@@ -54,9 +54,10 @@ const markup = (travelBag) => {
         <li>Box contents:${travelBag.box.content}</li>
         <li>Zipper:${travelBag.zipperOpen ? "Open" : "Closed"}</li>
         </ul>
+        <img src="images/TokyoSkytree.jpg" />
     </div>    `
 }
 
 const main = document.createElement("main");
 main.innerHTML = markup(travelBag);
-document.body.appendChild(main);
+document.body.appendChild(main); // drop the contents of the main element onto the page
