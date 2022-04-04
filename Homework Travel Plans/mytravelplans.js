@@ -12,7 +12,7 @@ const myTravelPlans = {
     companion: "My girlfriend",
     dateOfDeparture: {
         year: 2022,
-        month: 04,
+        month: "April",
         day: 14,
     },
     activitiesPlanned: {
